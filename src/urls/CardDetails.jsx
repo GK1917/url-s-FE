@@ -71,9 +71,7 @@ export default function CardDetails({ url }) {
                                 }}
                             />
                         )}
-                        {/* {errors.shortUrl && (
-              <p className="text-red-500">{errors.shortUrl.message}</p>
-            )} */}
+
                         {!editModeEnabled && (
                             <button
                                 type="button"
